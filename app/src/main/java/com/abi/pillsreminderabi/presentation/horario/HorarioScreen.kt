@@ -82,7 +82,7 @@ fun HorarioScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    text = "Your note",
+                    text = "Abi pastillas",
                     style = MaterialTheme.typography.headlineMedium
                 )
                 IconButton(
@@ -96,6 +96,7 @@ fun HorarioScreen(
                     )
                 }
             }
+
             AnimatedVisibility(
                 visible = state.isOrderSectionVisible,
                 enter = fadeIn() + slideInVertically(),
@@ -143,3 +144,4 @@ fun HorarioScreen(
         }
     }
 }
+
